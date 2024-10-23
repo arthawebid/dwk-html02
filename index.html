@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+  <style>
+    label{font-size: 14px;font-weight: bold;}
+    input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 8px 0;
+      color:rgb(255, 255, 255);
+      background-color: black;
+      font-size:16px;
+    }
+    select{
+      width:100%;
+      padding: 12px 20px;
+      border-radius: 5px;
+      margin: 8px 0;
+      color:rgb(255, 255, 255);
+      background-color: black;
+      font-size:16px;
+    }
+    input[type=checkbox],input[type=radio]{
+      outline: 1px solid #c0C0C0;
+    }
+  </style>
+</head>
+<body>
+  
+  <form>
+    <label>Form Text</label>
+      <input name="txalamat" type="text" value="isikan alamat" id="txalamat" class="txalamat">
+    <label>Form Number</label>
+      <input type="number">
+    <label>Form TGL</label>
+      <input type="date">  
+    <label>Form Waktu</label>
+      <input type="time">
+    <label>Form Pilihan</label>
+      <input type="radio" name="jnsk">laki-Laki
+      <input type="radio" name="jnsk">Perempuan
+      <br>
+      <input type="checkbox">Sepak Bola
+      <input type="checkbox">Silat
+      <input type="checkbox">Tinju
+      <input type="checkbox">Acting
+    <label>Form Pilihan lain</label>
+      <select>
+        <option disabled selected>Silahkan pilih warna</option>
+        <option>Merah</option>
+        <option>Putih</option>
+        <option>Biru</option>
+      </select>
+      <label>Form Password</label>
+        <input type="password" name="txPASS">
+
+      <input type="submit" value=" Tombol ">
+
+  </form>
+
+
+</body>
+</html>
